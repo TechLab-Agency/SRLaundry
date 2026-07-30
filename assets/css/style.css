@@ -101,7 +101,7 @@ nav.site-nav {
 }
 nav.site-nav .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .brand { display: flex; align-items: center; gap: 10px; }
-.brand img { height: 40px; width: auto; }
+.brand img { height: 58px; width: auto; }
 .brand-text .name { font-family: var(--font-head); font-weight: 800; font-size: 18px; color: var(--green-deep); line-height: 1.1; }
 .brand-text .sub { font-size: 11px; color: var(--ink-soft); letter-spacing: .02em; }
 
@@ -413,6 +413,7 @@ footer.site-footer .fphones a:hover { text-decoration: underline; }
   .nav-toggle { display: flex; }
   .nav-cta span.label { display: none; }
   .nav-cta { padding: 10px 14px; }
+  .brand img { height: 46px; }
 
   .hero { padding: 40px 0 60px; }
   .hero h1 { font-size: 28px; }
