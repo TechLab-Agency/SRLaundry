@@ -377,6 +377,7 @@ footer.site-footer .fbrand { color: #fff; font-family: var(--font-head); font-we
 footer.site-footer .faddr { max-width: 360px; }
 footer.site-footer .fphones a:hover { text-decoration: underline; }
 .fnote { text-align: center; margin-top: 22px; font-size: 12px; opacity: .55; }
+.fnote a:hover { text-decoration: underline; }
 
 /* ---- Floating WhatsApp button ---- */
 .wa-float {
