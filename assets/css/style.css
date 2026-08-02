@@ -152,6 +152,12 @@ nav.site-nav .wrap { display: flex; align-items: center; justify-content: space-
 .btn-ghost:hover { background: rgba(255, 255, 255, .1); }
 .btn-ghost.dark { border-color: rgba(7, 92, 48, .35); color: var(--green-deep); }
 .btn-ghost.dark:hover { background: rgba(7, 92, 48, .06); }
+.btn-google {
+  background: var(--green); color: #fff; padding: 12px 22px; border-radius: 32px;
+  font-weight: 700; font-size: 14px; display: inline-flex; align-items: center; gap: 8px;
+  box-shadow: 0 8px 18px rgba(10, 156, 72, .25); border: none;
+}
+.btn-google:hover { filter: brightness(1.05); }
 
 /* ---- Section scaffolding ---- */
 .section { padding: 60px 0; }
@@ -288,6 +294,8 @@ nav.site-nav .wrap { display: flex; align-items: center; justify-content: space-
   display: flex; align-items: center; gap: 10px; justify-content: center;
   margin-top: 26px; font-size: 13.5px; color: var(--ink-soft); font-weight: 600; text-align: center;
 }
+.review-cta { text-align: center; margin-top: 30px; }
+.review-cta p { color: var(--ink-soft); font-size: 14px; margin-bottom: 14px; }
 
 /* ---- CTA band ---- */
 .cta-band { background: var(--green-deep); color: #fff; text-align: center; padding: 54px 0; }
@@ -376,6 +384,13 @@ footer.site-footer .wrap {
 footer.site-footer .fbrand { color: #fff; font-family: var(--font-head); font-weight: 700; font-size: 16px; margin-bottom: 6px; }
 footer.site-footer .faddr { max-width: 360px; }
 footer.site-footer .fphones a:hover { text-decoration: underline; }
+.fsocial { display: flex; gap: 10px; }
+.fsocial a {
+  width: 36px; height: 36px; border-radius: 50%; flex: none;
+  background: rgba(255, 255, 255, .08); display: flex; align-items: center; justify-content: center; color: #fff;
+}
+.fsocial a:hover { background: rgba(255, 255, 255, .18); }
+.fsocial svg { width: 18px; height: 18px; }
 .fnote { text-align: center; margin-top: 22px; font-size: 12px; opacity: .55; }
 .fnote a:hover { text-decoration: underline; }
 
