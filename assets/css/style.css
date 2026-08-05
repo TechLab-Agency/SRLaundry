@@ -354,7 +354,7 @@ nav.site-nav .wrap { display: flex; align-items: center; justify-content: space-
   width: 42px; height: 42px; border-radius: 12px; background: var(--mint); flex: none;
   display: flex; align-items: center; justify-content: center; color: var(--navy);
 }
-.info-row h4 { font-size: 14px; color: var(--green-deep); margin-bottom: 3px; font-weight: 700; }
+.info-row h3 { font-size: 14px; color: var(--green-deep); margin-bottom: 3px; font-weight: 700; }
 .info-row p { font-size: 13.5px; color: var(--ink-soft); line-height: 1.5; }
 
 .hours-table { width: 100%; border-collapse: collapse; margin-top: 6px; }
