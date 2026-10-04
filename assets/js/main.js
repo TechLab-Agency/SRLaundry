@@ -73,3 +73,19 @@ document.addEventListener('click', function (e) {
     window.gtag('event', 'whatsapp_click', { page: location.pathname });
   }
 });
+
+// SR Laundry — load the Google Map only when asked (keeps the Contact page fast)
+(function () {
+  var box = document.getElementById('map-embed');
+  var btn = document.getElementById('map-load');
+  if (!box || !btn) return;
+  btn.addEventListener('click', function () {
+    var f = document.createElement('iframe');
+    f.src = box.getAttribute('data-src');
+    f.title = 'Map showing SR Laundry location in Cyberjaya';
+    f.loading = 'lazy';
+    f.referrerPolicy = 'no-referrer-when-downgrade';
+    box.innerHTML = '';
+    box.appendChild(f);
+  });
+})();

@@ -326,14 +326,16 @@
               </div>
             </div>
           </div>
-          <!-- TODO: replace with the real Google Maps embed URL (Google Maps → Share → Embed a map) once confirmed -->
-          <div class="map-embed">
-            <iframe
-              src="https://www.google.com/maps?q=3-GF%2C+Jalan+19%2F1%2C+Persiaran+Rimba+Permai%2C+Masreca+19%2C+63200+Cyberjaya%2C+Selangor&output=embed"
-              title="Map showing SR Laundry location in Cyberjaya"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+          <div class="map-embed" id="map-embed" data-src="https://www.google.com/maps?cid=208526943145880068&amp;output=embed">
+            <div class="map-facade">
+              <svg class="ic" style="width:30px;height:30px;" aria-hidden="true"><use href="#i-pin"/></svg>
+              <strong>SR Laundry, Cyberjaya</strong>
+              <span>3-GF, Jalan 19/1, Persiaran Rimba Permai, Masreca 19, 63200 Cyberjaya</span>
+              <div class="map-actions">
+                <button type="button" class="btn-ghost dark" id="map-load">Show map</button>
+                <a class="btn-ghost dark" href="https://maps.google.com/?cid=208526943145880068" target="_blank" rel="noopener">Open in Google Maps</a>
+              </div>
+            </div>
           </div>
         </div>
 

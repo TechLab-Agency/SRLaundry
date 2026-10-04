@@ -482,3 +482,10 @@ a.pcard:hover { box-shadow: 0 10px 22px rgba(7, 92, 48, .12); transform: transla
 /* ---- Areas we serve ---- */
 .area-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 26px; }
 .area-list li { background: var(--mint); color: var(--green-deep); padding: 9px 18px; border-radius: 30px; font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; }
+
+/* ---- Click-to-load map ---- */
+.map-facade { height: 100%; background: var(--mint); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; text-align: center; padding: 20px; color: var(--green-deep); }
+.map-facade strong { font-family: var(--font-head); font-size: 16px; }
+.map-facade span { font-size: 13px; color: var(--ink-soft); max-width: 320px; }
+.map-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 10px; }
+.map-actions .btn-ghost { padding: 9px 16px; font-size: 13.5px; background: transparent; cursor: pointer; font-family: inherit; }
