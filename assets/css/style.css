@@ -478,3 +478,7 @@ a.pcard:hover { box-shadow: 0 10px 22px rgba(7, 92, 48, .12); transform: transla
 .faq-list summary::after { content: '+'; font-size: 20px; line-height: 1; color: var(--navy); flex: none; }
 .faq-list details[open] summary::after { content: '\2212'; }
 .faq-list details p { padding: 0 0 18px; font-size: 14px; color: var(--ink-soft); line-height: 1.65; }
+
+/* ---- Areas we serve ---- */
+.area-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 0 0 26px; }
+.area-list li { background: var(--mint); color: var(--green-deep); padding: 9px 18px; border-radius: 30px; font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; }
