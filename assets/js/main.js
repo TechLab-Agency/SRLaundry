@@ -65,3 +65,11 @@
     }, true);
   });
 })();
+
+// SR Laundry — GA4 event for WhatsApp links (no-op until the GA4 tag is added)
+document.addEventListener('click', function (e) {
+  var a = e.target.closest && e.target.closest('a[href*="wa.me"]');
+  if (a && typeof window.gtag === 'function') {
+    window.gtag('event', 'whatsapp_click', { page: location.pathname });
+  }
+});
