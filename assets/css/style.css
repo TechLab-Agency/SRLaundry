@@ -508,3 +508,5 @@ a.pcard:hover { box-shadow: 0 10px 22px rgba(7, 92, 48, .12); transform: transla
 a.lang-switch { font-size: 12px; font-weight: 700; letter-spacing: .04em; color: var(--green) !important; border: 1.5px solid var(--green); border-radius: 999px; padding: 4px 11px; line-height: 1.2; }
 a.lang-switch:hover { background: var(--green); color: #fff !important; }
 .nav-mobile a.lang-switch { display: inline-block; margin: 6px 0 0; }
+
+.area-note { max-width: 62ch; margin: 22px auto 0; text-align: center; color: var(--ink-soft); font-size: 15px; line-height: 1.7; }
