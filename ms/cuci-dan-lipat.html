@@ -119,7 +119,7 @@
           "closes": "21:00"
         }
       ],
-      "priceRange": "$",
+      "priceRange": "RM1.80 - RM200",
       "sameAs": [
         "https://www.facebook.com/profile.php?id=61593011454107",
         "https://www.instagram.com/sr.shop.laundry/",
@@ -251,7 +251,88 @@
           "@type": "Place",
           "name": "Serenia City"
         }
-      ]
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Harga cuci & lipat",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Cuci & Lipat Biasa",
+            "priceCurrency": "MYR",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "MYR",
+              "price": 3.5,
+              "unitText": "kg"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cuci & Lipat Biasa"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Cuci Tangan & Gosok",
+            "priceCurrency": "MYR",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "MYR",
+              "price": 5.9,
+              "unitText": "piece"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cuci Tangan & Gosok"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Tuala & Cadar",
+            "priceCurrency": "MYR",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "MYR",
+              "price": 6,
+              "unitText": "kg"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tuala & Cadar"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Comforter (cuci biasa)",
+            "priceCurrency": "MYR",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "MYR",
+              "price": 17,
+              "unitText": "piece"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Comforter (cuci biasa)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Langsir / Sarung Sofa",
+            "priceCurrency": "MYR",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "priceCurrency": "MYR",
+              "price": 8,
+              "unitText": "kg"
+            },
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Langsir / Sarung Sofa"
+            }
+          }
+        ]
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -291,7 +372,7 @@
 
 <link rel="preload" href="/assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/poppins-800.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/style.css?v=20261008">
+<link rel="stylesheet" href="/assets/css/style.css?v=20261106">
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MCCZS678G"></script>
 <script>
@@ -349,6 +430,7 @@ gtag('config', 'G-3MCCZS678G');
     <div class="nav-links">
       <a href="/ms/">Utama</a>
       <a href="/ms/perkhidmatan" aria-current="true">Perkhidmatan</a>
+      <a href="/ms/harga">Harga</a>
       <a href="/ms/hubungi">Hubungi</a>
       <a class="lang-switch" href="/wash-and-fold" hreflang="en-MY" lang="en" title="View in English">EN</a>
     </div>
@@ -363,6 +445,7 @@ gtag('config', 'G-3MCCZS678G');
   <div class="nav-mobile" id="mobile-menu">
     <a href="/ms/">Utama</a>
     <a href="/ms/perkhidmatan" aria-current="true">Perkhidmatan</a>
+    <a href="/ms/harga">Harga</a>
     <a href="/ms/hubungi">Hubungi</a>
       <a class="lang-switch" href="/wash-and-fold" hreflang="en-MY" lang="en" title="View in English">EN</a>
   </div>
@@ -402,6 +485,31 @@ gtag('config', 'G-3MCCZS678G');
     </div>
   </section>
 
+  <section class="section prices" id="prices">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Senarai Harga</span>
+        <h2>Harga Cuci &amp; Lipat di Cyberjaya</h2>
+      </div>
+      <div class="price-block">
+        
+        <table class="price-table">
+          <thead class="sr-only"><tr><th scope="col">Item</th><th scope="col">Per</th><th scope="col">Harga</th></tr></thead>
+          <tbody>
+          <tr><td>Cuci &amp; Lipat Biasa</td><td class="unit">per kg</td><td class="amt">RM 3.50</td></tr>
+          <tr><td>Cuci Tangan &amp; Gosok</td><td class="unit">per pcs</td><td class="amt">RM 5.90</td></tr>
+          <tr><td>Tuala &amp; Cadar</td><td class="unit">per kg</td><td class="amt">RM 6</td></tr>
+          <tr><td>Comforter (cuci biasa)</td><td class="unit">per pcs</td><td class="amt">RM 17</td></tr>
+          <tr><td>Langsir / Sarung Sofa</td><td class="unit">per kg</td><td class="amt">RM 8</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="price-note">Harga dalam Ringgit Malaysia (RM). “Dari” dan “+” bermaksud harga bermula pada jumlah itu, dan harga akhir bergantung pada barang serta keadaannya. Hantar gambar di WhatsApp untuk sebut harga tepat. Senarai harga setakat November 2026.</p>
+      <div class="preview-cta"><a class="btn-ghost dark" href="/ms/harga">Lihat senarai harga penuh →</a></div>
+    </div>
+  </section>
+
+
   <section class="section highlights alt">
     <div class="wrap">
       <div class="section-head">
@@ -423,6 +531,7 @@ gtag('config', 'G-3MCCZS678G');
         <h2>Soalan Lazim Cuci &amp; Lipat</h2>
       </div>
       <div class="faq-list">
+        <details><summary>Berapakah harga cuci dan lipat di Cyberjaya?</summary><p>Cuci dan lipat biasa ialah RM3.50 per kg. Tuala dan cadar RM6.00 per kg, manakala langsir dan sarung sofa RM8.00 per kg. Senarai harga ada di atas.</p></details>
         <details><summary>Bagaimana ia berfungsi?</summary><p>Bawa dobi anda atau minta pickup melalui WhatsApp. Kami cuci, keringkan dan lipat, kemudian mesej anda apabila siap.</p></details>
         <details><summary>Adakah anda cuci tangan pakaian halus?</summary><p>Ya. Cuci tangan tersedia untuk pakaian halus. Sebut sahaja semasa drop-off.</p></details>
         <details><summary>Boleh tambah gosok?</summary><p>Boleh. Perkhidmatan gosok juga tersedia, jadi pakaian anda boleh dikembalikan dalam keadaan dicuci, dilipat dan ditekan.</p></details>
@@ -476,6 +585,7 @@ gtag('config', 'G-3MCCZS678G');
   <nav class="fnav" aria-label="Pautan kaki laman">
     <a href="/ms/">Utama</a>
     <a href="/ms/perkhidmatan">Perkhidmatan Dobi &amp; Dry Clean</a>
+    <a href="/ms/harga">Senarai Harga</a>
     <a href="/ms/hubungi">Hubungi &amp; Lokasi</a>
     <a href="https://wa.me/60102547242?text=Hai%2C%20saya%20ingin%20bertanya%20tentang%20perkhidmatan%20cuci%20dan%20lipat%20anda" target="_blank" rel="noopener">WhatsApp Kami</a>
   </nav>
@@ -495,6 +605,6 @@ gtag('config', 'G-3MCCZS678G');
   <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2z"/></svg>
 </a>
 
-<script src="/assets/js/main.js?v=20261008" defer></script>
+<script src="/assets/js/main.js?v=20261106" defer></script>
 </body>
 </html>
