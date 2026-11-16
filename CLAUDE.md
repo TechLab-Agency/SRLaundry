@@ -1,0 +1,2 @@
+- Before starting work: read STATUS.md.
+- Before finishing work: update STATUS.md with what changed, then commit and push.
