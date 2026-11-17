@@ -1,29 +1,31 @@
 # Status
 
-Last updated: 2026-11-16
+Last updated: 2026-11-18
 
 ## Done recently
 
-- Added price lists: new `/prices` and `/ms/harga` pages, plus price tables on the service pages (English + Malay), from the shop's printed price list.
-- Added "Prices"/"Harga" links in the nav and footer, price offer structured data, and the two new pages to the sitemap.
-- Renamed the tailoring section heading to "Curtains (Langsir)" (EN) / "Langsir" (BM).
-- Earlier: added Dengkil, Gamuda Cove and Serenia City service areas (EN + MS).
-- All of the above is live on https://www.srlaundry.shop (Cloudflare Pages).
+- Price lists live: `/prices` and `/ms/harga`, plus price tables on the service pages (English + Malay), from the shop's printed price list. Indexing requested in Google on 2026-11-11, sitemap resubmitted.
+- Tailoring section heading shown as "Curtains (Langsir)" (EN) / "Langsir" (BM). Live.
+- Promotion built locally (NOT deployed yet): pop-up on every page (`assets/js/promo.js`), promo strip on the home and price pages, offer structured data (`makesOffer`) on all pages, home page search descriptions mention it. Offer: 10% off when the bill is RM50 or more, valid until 31 Dec 2026.
 
 ## In progress
 
-- Weekly SEO report: blocked. The Google account that owns Search Console / Analytics is signed out of the browser, so this week's numbers can't be pulled yet.
+- Promotion waits for Jimmy's deploy yes and confirmation of the offer wording (see Decisions).
+- Weekly SEO report: blocked. The Google account that owns Search Console / Analytics is signed out in Chrome (asks "Verify it's you"), and OpenSEO is not linked to Search Console or Analytics for the SR Laundry project. Last report written: 2026-10-21 (plus the manual October report).
 
 ## Next
 
-- Request Google indexing for `/prices` and `/ms/harga`, and the remaining service pages still waiting.
-- Confirm unclear price readings with the client (the "from"/"+" meaning, the smudged ironing bedsheet price, the two covered dry-cleaning rows, and whether the "Langsir" section is really curtains).
-- Add carpet and shoe cleaning prices once the client supplies them.
-- Optional: submit the two new pages to Bing.
+- Deploy the promotion once approved, then request Google indexing for the home pages and resubmit the sitemap.
+- Get a Google sign-in (or link OpenSEO integrations) so the weekly report can run, then write this week's report.
+- Check indexing of `/prices` and `/ms/harga` in Search Console.
+- REMOVE THE PROMOTION AFTER 31 DEC 2026: delete the `promo.js` script line and `promo-band` sections, the `makesOffer` block in the page data, and the "10% off" text in the home page descriptions. The pop-up hides itself after 31 Dec, but the static text does not.
+- Add carpet and shoe cleaning prices once the client supplies them (their price list photos have none).
+- Ask the client what the "Langsir" section on the tailoring list really covers.
 
 ## Decisions
 
 - Deploy only when explicitly asked.
-- Static site on Cloudflare Pages; canonical is https://www.srlaundry.shop (apex 301 -> www).
+- Static site on Cloudflare Pages; canonical is https://www.srlaundry.shop (apex 301 -> www). Cloudflare login on this PC is bluej.app@gmail.com.
 - Malay pages are real `/ms/` URLs, not a translate toggle (better for SEO).
-- Prices are shown from the shop's printed list; "from"/"+" means the price starts there.
+- "From" on prices (and "<" / "++" on the shop's sign) means the price starts at that amount. Confirmed by Jimmy 2026-11-18.
+- Promotion wording assumed: 10% off when a bill is RM50 or more (a minimum spend, not 10% per RM50). Pop-up shows after 6 seconds, once every 3 days per visitor.
