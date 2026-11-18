@@ -8,6 +8,14 @@ Last updated: 2026-11-18
 - Tailoring section heading shown as "Curtains (Langsir)" (EN) / "Langsir" (BM). Live.
 - Promotion built locally (NOT deployed yet): pop-up on every page (`assets/js/promo.js`), promo strip on the home and price pages, offer structured data (`makesOffer`) on all pages, home page search descriptions mention it. Offer: 10% off when the bill is RM50 or more, valid until 31 Dec 2026.
 
+## Done 2026-11-18 (later)
+
+- Promotion DEPLOYED and verified live (/, /ms/, /prices, /ms/harga show promo-band, offer data, promo.js 200). Jimmy said "deploy".
+- Google Rich Results Test passed: home (Local business + Organization valid), /prices (Breadcrumbs + Local business + Organization valid).
+- WhatsApp click tracking already exists: `assets/js/main.js` sends a `whatsapp_click` event to GA4 (G-3MCCZS678G) for every wa.me link, live since 2026-10-04. The promo button also sends `promo_click`. So October and November clicks are already recorded in GA4; read them in GA4 > Reports > Engagement > Events. Still to do (needs the owner Google sign-in): mark `whatsapp_click` as a key event in GA4 Admin.
+- OpenSEO cannot see SR Laundry's Search Console or Analytics: its connected Google accounts (bluej.app, agencytechlab) hold bluej.* and techlabagency.online only. SR Laundry's property sits on a different Google account (the one that asks "Verify it's you").
+- Bing/IndexNow submit through the OpenSEO tool failed (tool error), so Bing submission is still not done (needs Bing Webmaster Tools sign-in).
+
 ## In progress
 
 - Promotion wording is confirmed (see Decisions); it only waits for Jimmy's deploy yes.
