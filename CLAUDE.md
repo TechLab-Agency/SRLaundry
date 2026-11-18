@@ -1,2 +1,3 @@
 - Before starting work: read STATUS.md.
 - Before finishing work: update STATUS.md with what changed, then commit and push.
+- Deadline: if today is 1 Jan 2027 or later, the December promotion (10% off bills of RM50+) must be removed from the site. See "Deadline: remove the promotion on 1 Jan 2027" in STATUS.md, tell Jimmy, and ask him to say "remove it" before you change or deploy anything.

@@ -22,6 +22,13 @@ Last updated: 2026-11-18
 - Add carpet and shoe cleaning prices once the client supplies them (their price list photos have none).
 - Ask the client what the "Langsir" section on the tailoring list really covers.
 
+## Deadline: remove the promotion on 1 Jan 2027
+
+- Any session reading this on or after 1 Jan 2027 (today's date >= 2027-01-01): tell Jimmy the promotion has ended and ask him to say "remove it". Do not wait for the scheduled reminder (task `srlaundry-remove-promo-reminder`, 9:00 am on 1 Jan 2027, only runs while the Claude app is open on his PC).
+- First check whether the promotion ever went live: fetch https://www.srlaundry.shop/ and look for "promo-band" / "10% off". If it is not live, there is nothing to remove from the live site; just clean up the local code.
+- If it is live and Jimmy says yes: do the removal steps in "Next" above (both English and `/ms/` pages), bump the `?v=` cache-bust, update sitemap lastmod, commit, push, deploy only on his explicit yes, verify the live site, then request Google indexing for `/` and `/ms/`.
+- Alternative: if the client wants to extend the offer, change `END` in `assets/js/promo.js` and the "31 December 2026" text and `validThrough` instead of removing it.
+
 ## Decisions
 
 - Deploy only when explicitly asked.
