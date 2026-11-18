@@ -10,7 +10,7 @@ Last updated: 2026-11-18
 
 ## In progress
 
-- Promotion waits for Jimmy's deploy yes and confirmation of the offer wording (see Decisions).
+- Promotion wording is confirmed (see Decisions); it only waits for Jimmy's deploy yes.
 - Weekly SEO report: blocked. The Google account that owns Search Console / Analytics is signed out in Chrome (asks "Verify it's you"), and OpenSEO is not linked to Search Console or Analytics for the SR Laundry project. Last report written: 2026-10-21 (plus the manual October report).
 
 ## Next
@@ -28,4 +28,4 @@ Last updated: 2026-11-18
 - Static site on Cloudflare Pages; canonical is https://www.srlaundry.shop (apex 301 -> www). Cloudflare login on this PC is bluej.app@gmail.com.
 - Malay pages are real `/ms/` URLs, not a translate toggle (better for SEO).
 - "From" on prices (and "<" / "++" on the shop's sign) means the price starts at that amount. Confirmed by Jimmy 2026-11-18.
-- Promotion wording assumed: 10% off when a bill is RM50 or more (a minimum spend, not 10% per RM50). Pop-up shows after 6 seconds, once every 3 days per visitor.
+- Promotion wording CONFIRMED by Jimmy 2026-11-18: any bill of RM50 or more gets 10% off (a minimum spend, not 10% per RM50). Nothing excluded; the client did not mention any exclusions. Pop-up shows after 6 seconds, once every 3 days per visitor. Still waiting for his "deploy".
